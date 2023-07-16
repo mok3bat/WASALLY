@@ -16,7 +16,7 @@
     <!-- Favicons -->
     <script>
       // Check if the user and password are not entered or not valid
-      var invalidCredentials = localStorage.getItem('invalidCredentials') === 'true';
+      var invalidCredentials = sessionStorage.getItem('invalidCredentials') === 'true';
   
       // Redirect to login.html if credentials are not valid
       if (invalidCredentials) {
